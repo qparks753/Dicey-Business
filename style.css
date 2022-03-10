@@ -1,0 +1,38 @@
+#divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    width:75px;
+    height: 75px;
+    font-size: 40px;
+    margin: 10px;
+    background-color: rgba(255, 0, 0, 0.431);
+    border-radius: 6px;
+}
+
+#dice-holder{
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color: rgba(195, 196, 196, 0.571);
+    margin-top: 3rem;
+    border-radius: 5px;
+    height:30rem;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#dieGenerator,#dieRoller,#counter,#reset{
+    margin:10px;
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+}
